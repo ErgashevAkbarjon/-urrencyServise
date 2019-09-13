@@ -19,7 +19,7 @@ class CreateCurrenciesTable extends Migration
             $table->string('english_name');
             $table->string('alphabetic_code');
             $table->string('digit_code');
-            $table->string('rate');
+            $table->double('rate');
         });
     }
 
